@@ -50,11 +50,11 @@
                                 <ul class="advertisement">
                                     <li>
                                         <p><strong><i class="lni-folder"></i> Danh mục:</strong> <a
-                                                href="#">{{$item->category->name}}</a>
+                                                href="#">{{$item->category->category_name}}</a>
                                         </p>
                                     </li>
                                     <li>
-                                        <p><strong><i class="lni-archive"></i> Trạng thái:</strong> New</p>
+                                        <p><strong><i class="lni-archive"></i> Trạng thái:</strong>{{$item->status}}</p>
                                     </li>
                                 </ul>
                             </div>
